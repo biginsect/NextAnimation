@@ -21,7 +21,7 @@ import com.lipeng.nextanimation.R;
  * 矩形按钮转变为圆按钮的动画，有颜色的变化
  */
 
-public class MorphButtonToFab extends ChangeBounds {
+public class MorphDialogToFab extends ChangeBounds {
 
     private static final String PROPERTY_COLOR = "plaid:rectMorph:color";
     private static final String PROPERTY_CORNER_RADIUS = "plaid:rectMorph:cornerRadius";
@@ -31,12 +31,12 @@ public class MorphButtonToFab extends ChangeBounds {
     };
     private @ColorInt int endColor = Color.TRANSPARENT;
 
-    public MorphButtonToFab(@ColorInt int endColor){
+    public MorphDialogToFab(@ColorInt int endColor){
         super();
         setEndColor(endColor);
     }
 
-    public MorphButtonToFab(Context context, AttributeSet attrs){
+    public MorphDialogToFab(Context context, AttributeSet attrs){
         super(context, attrs);
     }
 

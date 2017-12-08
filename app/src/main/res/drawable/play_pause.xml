@@ -11,7 +11,7 @@
 
     <transition android:fromId="@id/play_state" android:toId="@id/pause_state" android:reversible="true">
         <animated-vector android:drawable="@drawable/ic_play">
-            <target android:name="d" android:animation="@anim/play_pause" />
+            <target android:name="d" android:animation="@animator/play_pause" />
         </animated-vector>
     </transition>
 

@@ -13,10 +13,10 @@
         <animated-vector android:drawable="@drawable/android">
             <target
                 android:name="android_group"
-                android:animation="@anim/appear"/>
+                android:animation="@animator/appear"/>
             <target
                 android:name="android"
-                android:animation="@anim/gray_to_green"/>
+                android:animation="@animator/gray_to_green"/>
         </animated-vector>
     </transition>
 </animated-selector>
