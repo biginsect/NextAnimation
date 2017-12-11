@@ -1,4 +1,4 @@
-package com.lipeng.nextanimation.activity.activity;
+package com.lipeng.nextanimation.activity.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
